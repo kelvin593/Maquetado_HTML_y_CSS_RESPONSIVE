@@ -1,294 +1,385 @@
-/* Reglas de CSS para Maquetar una Pagina Basica con Estructura HTML5 y CSS*/
-/*Creado por Ing. Kelvin Sanchez D.*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Potta+One&family=Rampart+One&family=Roboto:wght@300;400;500&family=Rubik+Moonrocks&family=Rubik+Puddles&display=swap');
 
-/* 1ERA Regla Marenes 0 a todo el Body y su contenido, iniciamos en cero todo*/
 
-* {
+*{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
-/* 2DA Regla para el Body */
-
-body {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(254, 17, 17);
+body{
+    background: #FFE6C7;
 }
-
-/* 3ERA Regla para el Contenedor de mi Pagina Web */
-
-.container {
-    width: 70%;
-    height: 100%;
-    color: black;
-    margin: 0px auto;
-    border-radius: 5px;
-    border: 5px solid #efe30a;
-    padding-left: 5px;
-    padding-right: 5px;
-    background-color: #ffffff;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-/* 4TA Regla para el Encabezado o Header */
 
 header{
-    color: black;
-    font-size: 30px;
-    text-align: center;
-    background-color:rgb(220, 206, 10);
-    width:100%;
-    height:100%;
-    text-align: center;
-    line-height:100px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    height: 100px;
 }
 
-/*5TA REGLA */
-
- nav{
-    font-size: 30px;
-    text-align: center;
-    line-height: 60px;
-    background-color:orange;
-    color: white;
-} 
-
-  /* 6TA Regla */
-
- #contenido{
-    width:70%;
-    height:100%;
-    background-color: rgb(65, 231, 87);
-    float: left;
-    margin-right: 10px;
-    margin-top: 10px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    line-height:100px;
-}
-  /* 7MA Regla */
-/* 
-article{
-    width:95%;
-    color: white;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    line-height:100px;
-    background-color: rgb(9, 136, 26);
-} */
-
-  /* 8VA Regla */
-
-#contenido h2{
-    font-size: 30px;
-    text-align: center;
-    line-height: 600px;
-    color: white;
-}
-
-  /* 9NA Regla */ 
-
-aside{
-    width:29%;
-    height:600px;
-    background-color: green;
-    float: right;
-    margin-top: 10px;
-
-}
-
-  /* 9NA Regla */
-
-aside h2{
-    font-size: 20px;
-    text-align: center;
-    line-height: 20px;
-    color: white;
-}
-
-
-aside img{
-  width:95%;
-  height:90%;
-  background-color: green;
-  float: right;
-  margin: 0 auto;
-  padding: 0 auto;
-}
- 
-
-.clearfix{
-    clear: both;
-} 
-
-  /* Sectima Regla para el estiolo  del footer */
-
-footer{
-    background-color: #750984;
-    width: 100%;
-    height: 70px;
-    line-height: 70px;
-    text-align: center;
-    color: white;
-    border-top: 1px solid black;
-    font-size: 20px;
-    font-weight: bold;
-    margin-right: 10px;
-    margin-top: 10px;
-}
-
-
-/* 10MA Regla para el estilo del movil de 300 a 768  */
-
-@media (max-width: 768px) and (min-width: 300px) {
-       
-/* 1ERA Regla Marenes 0 a todo el Body y su contenido, iniciamos en cero todo*/
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-/* 2DA Regla para el Body */
-
-body {
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(254, 17, 17);
-}
-
-/* 3ERA Regla para el Contenedor de mi Pagina Web */
-
-.container {
-  width: 95%;
-  height: 100%;
-  color: black;
-  margin: 0px auto;
-  border-radius: 5px;
-  border: 5px solid #efe30a;
-  padding-left: 5px;
-  padding-right: 5px;
-  background-color: #ffffff;
-  margin-top: 1px;
-  margin-bottom: 1px;
-}
-
-/*5TA REGLA */
-
-nav{
-  font-size: 30px;
-  text-align: center;
-  line-height: 60px;
-  background-color:orange;
-  color: white;
-} 
-
-/* 6TA Regla */
-
-#contenido{
-  width:100%;
-  height:100%;
-  background-color: rgb(65, 231, 87);
-  float: left;
-  margin-right: 10px;
-  margin-top: 10px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  line-height:100px;
-}
-
-aside{
-  width:100%;
-  height:600px;
-  background-color: green;
-  float: right;
-  margin-top: 10px;
-
-}
-
-
-
-/* 10MA Regla para el estilo del movil de 300 a 768  */
-
-@media (max-width: 1024px) and (min-width: 769px) {
-       
-  /* 1ERA Regla Marenes 0 a todo el Body y su contenido, iniciamos en cero todo*/
-  
-  * {
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* 2DA Regla para el Body */
-  
-  body {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(254, 17, 17);
-  }
-  
-  /* 3ERA Regla para el Contenedor de mi Pagina Web */
-  
-  .container {
-    width: 95%;
+.container__header{
+    max-width: 1200px;
     height: 100%;
-    color: black;
-    margin: 0px auto;
-    border-radius: 5px;
-    border: 5px solid #efe30a;
-    padding-left: 5px;
-    padding-right: 5px;
-    background-color: #ffffff;
-    margin-top: 1px;
-    margin-bottom: 1px;
-  }
-  
-  /*5TA REGLA */
-  
-  nav{
-    font-size: 30px;
-    text-align: center;
-    line-height: 60px;
-    background-color:orange;
-    color: white;
-  } 
-  
-  /* 6TA Regla */
-  
-  #contenido{
-    width:100%;
-    height:100%;
-    background-color: rgb(65, 231, 87);
-    float: left;
-    margin-right: 10px;
-    margin-top: 10px;
+    margin: auto;
+    padding: 40px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    width: 180px;
+}
+
+.menu nav ul{
+    display: flex;
+}
+
+.menu nav ul li{
+    list-style: none;
+    padding: 0px 20px;
+}
+
+.menu nav ul li a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #000;
+    transition: opacity 300ms;
+}
+
+.menu nav ul li a:hover{
+    opacity: 0.5;
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn__register-cover{
+    padding: 14px 50px;
+    border-color: #e90505;
+    background: #000;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background, color, 300ms;
+}
+
+
+.btn__register-cover:hover{
+    background: #ff0b0b;
+}
+
+.btn__register-cover:active{
+    background: #000;
+}
+
+#icon_menu{
+    display: none;
+
+}
+
+/*PORTADA - COVER*/
+
+main{
+    max-width: 1200px;
+    height: calc(100vh + 800px);
+    padding: 40px;
+    margin: auto;
+
+}
+
+.cover{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.text__information-cover{
+    width: 50%;
+}
+.text__information-cover h1{
+    font-size: 50px;
+}
+.text__information-cover p{
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+.buttons__cover{
+    display: flex;
+    margin-top: 40px;
+}
+
+.btn__readMore-cover{
+    padding: 14px 40px;
+    border: none;
+    color: #000;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: background, 300ms;
+}
+.btn__readMore-cover:hover{
+    background: #ffffff;
+}
+.btn__readMore-cover:active{
+    background: #d10202;
+}
+
+.media__cover{
+    width: 50%;
+}
+
+
+
+/*BANNER*/
+
+.container__banner{
+    margin-top: 80px;
+}
+
+.banner{
+    height: 250px;
+    display: flex;
+    align-items: center;
+    background: #ce0000;
+    position: relative;
+    border-radius: 20px;
+}
+
+
+
+.banner__icon-heart{
+    width: 35%;
+    height: 100%;
+}
+
+#icon_heart{
+    width: 400px;
+    margin-top: -20px;
+    position: relative;
+    filter: drop-shadow(-40px 0px 30px rgba(0,0,0,0.5) );
+}
+
+.banner__text{
+    width: 60%;
+    position: relative;
+    padding: 40px;
+}
+.banner__text h2{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 400;
+}
+.banner__text a{
+    text-decoration: none;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 300ms;
+}
+.banner__text a:hover{
+    color: #000000;
+}
+
+.banner__icon-fire{
+    height: 100%;
+    position: absolute;
+    right: 10px;
+    overflow: hidden;
+}
+#icon_fire{
+    width: 300px;
+    position: relative;
+    margin-top: -100px;
+}
+
+
+
+
+.wrapper{
+    padding: 125px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .services{
+    width: 1100px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    margin: 0 auto;
+  }
+
+  .single-img{
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    width: 540px;
+    height: 450px;
+    overflow: hidden;
+    box-shadow: 5px 5px 20px rgb(0,0,0,0.3);
+    transform: translate(0, 0);
+    transition: .3s;
+
+  }
+
+  .single-img:hover{
+    transform: translate(0, -9px);
+  }
+
+.img-one{
+  background-image: url(https://cdn.pixabay.com/photo/2020/12/13/13/05/ferrari-488-5828176_640.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.img-two{
+  background-image: url(https://cdn.pixabay.com/photo/2021/11/20/10/01/car-6811334_640.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.img-three{
+    background-image: url(https://cdn.pixabay.com/photo/2016/07/28/16/50/car-engine-1548434_640.jpg);
+    background-size: cover;
+    background-position: center center;
+  }
+
+.img-text{
+    background: linear-gradient(to top, rgb(255,255,255,0.9), rgb(255,255,255,0));
+    padding: 0 10px 5px 10px;
+    width: 100%;
+    height: auto;
+    position: relative;
+    transform: translate(0, 110px);
+    line-height: 0.5s ease;
+    display: inline-block;
     text-align: center;
-    line-height:100px;
-  }
-  
-  aside{
-    width:100%;
-    height:600px;
-    background-color: green;
-    float: right;
-    margin-top: 10px;
-  
-  }
-  }
-    
+    color: #fff;
+    border-radius: 10px;
+    background-color: #000;
+}
+
+.img-text h4{
+    line-height: 15px;
+    padding: 0;
+    margin: 16px 0;
+    font-family: alfa slab one;
+    font-size: 25px;
+}
+
+.services{
+    background: #252525;
+    color: #fff;
+    padding: 10px 35px;
+    border: none;
+    border-radius: 50px;
+    line-height: 14px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.single-img:hover .img-text{
+    transform: translate(0, 0);
+}
+
+
+
+
+
+
+
+
+@media (max-width: 1024px){
+    .container__header, 
+    main{
+        padding: 20px;
+    }
+
+    #icon_menu{
+        display: block;
+        cursor: pointer;
+        font-size: 24px;
+    }
+
+    .menu{
+        height: 0px;
+        position: absolute;
+        right: 20px;
+        top: 70px;
+        overflow: hidden;
+        z-index: 10;
+        box-shadow: 0px 0px 30px -20px rgba(0,0,0,0.5);
+        transition: all 300ms;
+    }
+
+    .menu nav ul{
+        padding: 20px 0px;
+        flex-direction: column;
+        background: #fff;
+    }
+
+    .menu nav ul li{
+        padding: 10px 40px;
+    }
+
+    .mostrar_menu{
+        height: 235px;
+    }
+
+    .text__information-cover h1{
+        font-size: 40px;
+    }
+
+    .text__information-cover p{
+        font-size: 16px;
+    }
+
+    .banner__text h2{
+        font-size: 22px;
+    }
+
+    #icon-heart{
+        left: -60px;
+    }
+
+    .banner__icon-fire{
+        right: -20px;
+    }
+
+}
+
+
+@media (max-width: 920px){
+    .text__information-cover{
+        width: 100%;
+    }
+
+    .banner{
+        height: auto;
+        flex-wrap: wrap;
+    }
+
+    #icon_fire{
+        display: none;
+    }
+    #icon_heart{
+        left: 0;
+    }
+
+    .banner__text{
+        width: 100%;
+        margin-top: -100px;
+    }
+
 }
