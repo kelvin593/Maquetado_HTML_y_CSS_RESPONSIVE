@@ -1,65 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-     <!--SECCION DE META DATA-->
-    <meta charset="UTF-8" />
-    <link rel="shortcut icon" href="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_html_icon_130541.png" type="image/x-icon">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML, CSS, JavaScript</title>
-    <meta name="description" content="Pagina de Ejemplo para Proyecto Web Basico con HTML5, CSS,  Git y Git-Hub de IHC">
-    <meta name="keywords" content="HTML, CSS, JavaScript">
-    <meta name="author" content="Ing. Kelvin Sanchez D.">
-    <meta name="copyright" content="https://advisertecnology.com/" />
-    <link rel="stylesheet" href="css/style.css" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenidos a NetworknTn</title>
+    <link rel="stylesheet" href="/media/icofont/icofont.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    
 
-  </head>
-  <body>
-    <!--INICIO DE LA PAGINA CONTENEDOR PRINCIPAL-->
-    <div class="container">
-      <!--ENCABEZADO-->
-      <header>
-        <h1>Ing. Kelvin Sanchez D. 
-          <br> 20-EISM-1-002</h1>
-      </header>
-      <!--NAVEGACION-->
-      <nav>
-      <h2>AQUI VA EL MENU</h2> 
+    <header>
+        <div class="container__header">
 
-      </nav> 
+            <div class="logo">
+                <a href="/index.html"> <img src="/media/logo_flags.png" alt="MAS QUE AUTO"> </a>
+            </div>
 
-      <!--CONTENIDO-->
-    <section id="contenido" >
-       <!--ARTICULOS-->
-      <article>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="">Inicio</a></li>
+                        <li><a href="">Acerca de</a></li>
+                        <li><a href="https://kelvin593.github.io/Blog_de_autos/">Blog</a></li>
+                        <li><a href="https://kelvin593.github.io/Mini_Blog/sobre_mi.html">Contacto</a></li>
+                        
+                    </ul>
+                </nav>
+            </div>
 
-        <h2>SEPTION</h2>
-       
-      </article>
-
-    </section>
-
-     <!--PUBLICIDAD-->
-    <aside>
-
-        <h2>PUBLICA AQUI</h2>
-        <img src="https://imgs.search.brave.com/vx3kUoxnfxD4NUMwj_osbkZvsAFruJonkMDqn-8keuE/rs:fit:910:1200:1/g:ce/aHR0cHM6Ly9odHRw/Mi5tbHN0YXRpYy5j/b20vcHVibGljaWRh/ZC1kZS1jb2NhLWNv/bGEtRF9OUV9OUF83/MzQ2LU1DTzUyMDQ4/Nzk1NzJfMTAyMDEz/LUYuanBn" alt="">
-
-    </aside>
-     <!--ESTO LIMPIA LO FLOTADO DE ALGUN ELEMENTO DIV O ETIQUETA A LA DERECHA O A LA IZQUIERDA O DEBAJO-->
-    <div class="clearfix" ></div>
-
-    <!--FOOTER O PIE DE PAGINA-->
-
-      <footer>
-        <p>FOOTER © Ing. Kelvin Sanchez D.-2023</p>
-
-      </footer>
+            <i class="icofont-navigation-menu" id="icon_menu"></i>
+            
+        </div>
 
 
-    </div>
-    <!--FIN DEL CONTAINER PRINCIPAL-->
+    </header>
 
-  </body>
+    <main>
+        <div class="cover">
+            <div class="text__information-cover">
+                <h1>MAS QUE AUTOS</h1>
+
+                <div class="buttons__cover">
+                    <input type="button" class="btn__register-cover" value="Registrarse">
+                    <input type="button" class="btn__readMore-cover" value="Leer más">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container__banner">
+            <div class="banner">
+                <div class="banner__icon-heart">
+                    <img src="/media/file0.svg" id="icon_heart" alt="">
+                </div>
+                <div class="banner__icon-fire">
+                    <img src="/media/fire-dynamic-color.png" id="icon_fire" alt="">
+                </div>
+                <div class="banner__text">
+                    <h2><strong>CATEGORIA</strong> </h2>
+                    <a href="https://kelvin593.github.io/Blog_de_autos/">Leer mas</a>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="wrapper">
+            <div class="services">
+              
+  
+              <div class="col">
+                <div class="card">
+                  <span class="single-img img-one" class="card-img-top" alt="...">
+                    <span class="img-text">
+                        <h4>COCHES DEPORTIVOS</h4>
+                    </span>
+                  </span>  
+                  <div class="card-body">
+                    <h5 class="card-title"></h5>
+                    <p class="card-text"></p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card">
+                  <span class="single-img img-two" class="card-img-top" alt="...">
+                    <span class="img-text">
+                        <h4>COCHES ELECTRICOS</h4>
+                    </span>
+                  </span>  
+                  <div class="card-body">
+                    <h5 class="card-title"></h5>
+                    <p class="card-text"></p>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="col">
+                <div class="card">
+                  <span class="single-img img-three" class="card-img-top" alt="...">
+                    <span class="img-text">
+                        <h4>COCHES HIBRIDOS</h4>
+                    </span>
+                  </span>  
+                  <div class="card-body">
+                    <h5 class="card-title"></h5>
+                    <p class="card-text"></p>
+                  </div>
+                </div>
+              </div>
+    </main>
+
+    <script src="/js/script.js"></script>
+</body>
 </html>
 
